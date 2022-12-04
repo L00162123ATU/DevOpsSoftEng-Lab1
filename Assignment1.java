@@ -57,7 +57,7 @@ public class Assignment1
                            {
                               costOfUnits=units*0.00;  
                            }
-                        else if(years >3 && units >200)
+                        else if(years >5 && units >400)
                            {
                               costOfUnits=(units-freeunits)*over200;
                            }   
