@@ -11,7 +11,9 @@ public class Assignment1
       int units,bus,bUnits,totBUnits=0;
       double years,below200=0.18,over200=0.23,costOfUnits=0,uStCharge=17.50,rStCharge=21.50,total=0.00;
       double vattot,vat=0.13,amdue,freeunits=200,bUnitsPrice=0.25,costOfbUnits=0,bStCharge=20.00;
-      
+      /* added text for the purpose of the Lab
+         so we can demonstrate how version control records all changes
+       */
       
       System.out.println("****   LYIT Electric   ****");
       System.out.println("Please enter following customer details");
@@ -69,27 +71,27 @@ public class Assignment1
                            }
                            
                     
-                   System.out.println("Usage "+units+" Units"+"   €"+costOfUnits);
+                   System.out.println("Usage "+units+" Units"+"   ï¿½"+costOfUnits);
 
                    switch(meter)
                    {
                                        
                      case 'u':
-                     case 'U': System.out.println("Standing Charge   €"+uStCharge);
+                     case 'U': System.out.println("Standing Charge   ï¿½"+uStCharge);
                                total=uStCharge+costOfUnits; 
                                break;  
                      case 'r':          
-                     case 'R': System.out.println("Standing Charge   €"+rStCharge);
+                     case 'R': System.out.println("Standing Charge   ï¿½"+rStCharge);
                                total=rStCharge+costOfUnits;
                                break; 
                    }
                      
                    System.out.println();
-                   System.out.println("Total           €"+total);
+                   System.out.println("Total           ï¿½"+total);
                    vattot=total*vat;
-                   System.out.println("VAT @ 13%       €"+vattot);
+                   System.out.println("VAT @ 13%       ï¿½"+vattot);
                    amdue=total+vattot;
-                   System.out.println("Amount Due      €"+amdue);
+                   System.out.println("Amount Due      ï¿½"+amdue);
                    
                    break;
            case 'b':        
@@ -106,15 +108,15 @@ public class Assignment1
                      System.out.println(" ");
                      System.out.println("Customer Type B");
                      costOfbUnits = totBUnits * bUnitsPrice;
-                     System.out.println("Usage "+totBUnits+" Units          €"+costOfbUnits);
-                     System.out.println("Standing Charge          €"+bStCharge);
+                     System.out.println("Usage "+totBUnits+" Units          ï¿½"+costOfbUnits);
+                     System.out.println("Standing Charge          ï¿½"+bStCharge);
                      System.out.println(" ");
                      total = costOfbUnits + bStCharge;
-                     System.out.println("Total                  €"+total);
+                     System.out.println("Total                  ï¿½"+total);
                      vattot = total * vat;
-                     System.out.println("VAT @ 13%              €"+vattot);
+                     System.out.println("VAT @ 13%              ï¿½"+vattot);
                      amdue = total + vattot;
-                     System.out.println("Amount Due             €"+amdue);
+                     System.out.println("Amount Due             ï¿½"+amdue);
                      break;    
        
        }
