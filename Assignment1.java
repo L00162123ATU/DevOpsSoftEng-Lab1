@@ -53,7 +53,7 @@ public class Assignment1
                         System.out.println();
                         System.out.println("Customer Type R");
                    
-                        if(years > 3 && units <=200)
+                        if(years > 5 && units <=400)
                            {
                               costOfUnits=units*0.00;  
                            }
