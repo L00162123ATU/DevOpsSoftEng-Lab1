@@ -21,6 +21,9 @@ public class Assignment1
       System.out.println("****   LYIT Electric   ****");
       System.out.println("Please enter following customer details");
       System.out.print("Enter the customer type Residental[R] or Business[B] ");
+      System.out.println("****   LYIT Electric   ****");
+      System.out.println("Please enter following customer details");
+      System.out.print("Enter the customer type Residental[R] or Business[B] ");
       type = keyboardIn.next().charAt(0);
         
               switch(type)
