@@ -7,7 +7,7 @@ public class Assignment1
    public static void main(String [] args)
    {
       Scanner keyboardIn = new Scanner(System.in);
-      char type,meter; 
+      double type,meter; 
       int units,bus,bUnits,totBUnits=0;
       double years,below200=0.18,over200=0.23,costOfUnits=0,uStCharge=17.50,rStCharge=21.50,total=0.00;
       double vattot,vat=0.13,amdue,freeunits=200,bUnitsPrice=0.25,costOfbUnits=0,bStCharge=20.00;
