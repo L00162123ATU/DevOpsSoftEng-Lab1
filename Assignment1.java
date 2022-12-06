@@ -16,7 +16,9 @@ public class Assignment1
       int units,bus,bUnits,totBUnits=0;
       double years,below200=0.18,over200=0.23,costOfUnits=0,uStCharge=17.50,rStCharge=21.50,total=0.00;
       double vattot,vat=0.13,amdue,freeunits=200,bUnitsPrice=0.25,costOfbUnits=0,bStCharge=20.00;
-    
+      /* added text for the purpose of the Lab
+         
+       */
       
       System.out.println("****   LYIT Electric   ****");
       System.out.println("Please enter following customer details");
@@ -59,11 +61,11 @@ public class Assignment1
                         System.out.println();
                         System.out.println("Customer Type R");
                    
-                        if(years > 3 && units <=200)
+                        if(years > 5 && units <=400)
                            {
                               costOfUnits=units*0.00;  
                            }
-                        else if(years >3 && units >200)
+                        else if(years >5 && units >400)
                            {
                               costOfUnits=(units-freeunits)*over200;
                            }   
